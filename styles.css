@@ -76,16 +76,16 @@ html {
 }
 
 .blob2 {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     border-radius: 50%;
     background-color: #FF2DC4;
     position: absolute;
     opacity: 0.5;
     filter: blur(150px);
     left: 0;
-    bottom: 0;
-    transform: translate(-20%, 20%);
+    bottom: 50%;
+    transform: translate(-20%, 50%);
     z-index: 3;
     animation: light 5s ease-in-out alternate infinite;
 }
@@ -804,5 +804,15 @@ html {
     .sphere {
         width: 364px;
         height: 364px;
+    }
+
+    .coin1 {
+        width: 250.834px;
+        height: 250.295px;
+    }
+
+    .coin2 {
+        width: 200.834px;
+        height: 200.295px;
     }
 }
